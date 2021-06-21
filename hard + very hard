@@ -1,0 +1,24 @@
+def add(x, y):
+  return x + y
+
+def subtract(x, y):
+  return x - y
+
+def multiply(x, y):
+  return x * y
+
+def divide(x, y):
+  return x / y
+
+
+firstNum = int(input("Enter a number "))
+operator = input("Enter an operator +, -, *, or / ")
+secondNum = int(input("Enter a second number "))
+if operator == "+":
+  print(add(firstNum , secondNum))
+elif operator == "-":
+  print(subtract(firstNum, secondNum)) 
+elif operator == "*":
+  print(multiply(firstNum, secondNum)) 
+elif operator == "/":
+  print(divide(firstNum, secondNum)) 
