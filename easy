@@ -1,0 +1,9 @@
+nameOne =  "Paula"
+nameTwo = "Tom"    
+
+if len(nameOne) > len(nameTwo):
+  difference = len(nameOne) - len(nameTwo)
+  print(f"The name {nameOne} is longer than {nameTwo} by {difference} characters")   
+else: 
+  difference = len(nameTwo) - len(nameOne)
+  print(f"The name {nameTwo} is longer than {nameOne} by {difference} characters")
