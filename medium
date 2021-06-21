@@ -1,0 +1,7 @@
+speech = input("Say something to me ")
+if speech.isupper():
+  print("Don't shout pls")
+elif speech.islower():
+  print("Speak up, don't whisper")
+else:
+  print("Thank you!")
