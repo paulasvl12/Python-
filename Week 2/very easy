@@ -1,0 +1,9 @@
+def min(x, y):
+  if x < y:
+    print(f"{x} is less than {y}")
+  else:
+    print(f"{y} is less than {x}")
+
+num1 = int(input("Enter a number "))
+num2 = int(input("Enter another number "))
+min(num1, num2)
