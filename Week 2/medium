@@ -1,0 +1,21 @@
+num = int(input("Enter a number from 1-12 : "))
+months = [
+'January',
+'February',
+'March',
+'April',
+'May',
+'June',
+'July',
+'August',
+'September',
+'October',
+'November',
+'December'
+]
+if num < 1:
+  print("Invalid number")
+elif num > 12:
+  print("Invalid number")
+else :
+  print(f"You picked: {months[num-1]}")
