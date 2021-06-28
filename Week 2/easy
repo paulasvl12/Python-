@@ -1,0 +1,4 @@
+names = ["Paula", "John", "Jared"]
+lastNames = ["Viloria", "Doe", "Smith"]
+ages = [19, 19, 25]
+print(f"Hello, my name is {names[1]} {lastNames[1]} and I'm {ages[1]} years old")
