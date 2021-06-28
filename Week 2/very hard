@@ -1,0 +1,14 @@
+arr = []
+size = int(input("enter the number of elements for the array : "))
+for i in range(size):
+    arr.append(int(input("Enter a number: ")))
+
+
+
+target = int(input("Give me a target to search: "))
+for i in range(len(arr)):
+  if target in arr:
+    print(f"This number is in position {arr.index(target)}")
+    break
+  else:
+    print("The input is not on this list")
